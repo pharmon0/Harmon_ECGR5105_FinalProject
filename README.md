@@ -1,7 +1,4 @@
-# Harmon_ECGR5105_FinalProject
- ECGR 5105 Final Project for Phillip Harmon
-
-## Projection of GDP Growth in Conjunction with Internet Accessibility
+# Projection of GDP Growth in Conjunction with Internet Accessibility
 Phillip Harmon, 801177304 
  - Project Manager
  - Lead Engineer
