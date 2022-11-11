@@ -8,7 +8,7 @@ Phillip Harmon, 801177304
  - Data Analyst
  - Secretary
 ### Project Summary
-	This project aims to develop a machine learning model to analyze and predict growth of a nation’s gross domestic product according to the availability and growth of internet access within that country. This model will allow for the projection of timeframes for developing nations becoming major players in the world economy based on their growing internet infrastructure and userbase. Additionally, this will give insight into the importance of internet access to all people.
+This project aims to develop a machine learning model to analyze and predict growth of a nation’s gross domestic product according to the availability and growth of internet access within that country. This model will allow for the projection of timeframes for developing nations becoming major players in the world economy based on their growing internet infrastructure and userbase. Additionally, this will give insight into the importance of internet access to all people.
 ### Selected Datasets
  - Speedtest Data by Ookla
    - Contains data on internet speeds across many countries, broken down by quarters, for the years 2020, 2021, and 2022
