@@ -25,6 +25,13 @@ Due to the nature of the data being analyzed, it seems desirable that all of the
 
 Following the training of the model, sample data will be fed into the model in order to generate projections of the following handful of years for an as-of-yet undetermined set of countries.
 ## Project Progression
+### Initial Thoughts and Data Analysis
 The Scope of the included datasets is unfortunately a bit narrow. The imported datasets were processed down into a single CSV file by means of the Dataset_Cleaner.ipynb script. This finalized dataset consists of the GDP growth in the year 2020, as well as the change in average upload speed, download speed, and latency by country, including data for fixed internet connections and mobile internet devices. The hope is that this data will allow for adequate training of the model, and that accurate predictions will be possible out of this data.
 
 Ideally, more years of data would be included, but the datasets for this were simply not found to be available. The Ookla data only included the years 2020-2022, and the GDP data only included years 1960-2020, resulting in only the one year of overlap data. The hope is that the bredth of data supplied by different countries in 2020 will be sufficient to extrapolate for any year.
+
+The datasets have been cleaned using the Dataset Cleaner script. This entails combining the two datasets into one useable file, matching the data appropriately by country and year, and removing missing data from the set.
+### Training
+The training was implemented using min/max scaling, an 80%/20% train/test split, and a 4-hidden-layer fully-connected neural network as a linear regression. The results of this training seem quite good. The loss is low, meaning it predicts the outcome of the input data correctly. And it does so for both the training and validation data.
+### Post-Training Analysis
+The model produced was analyzed using independent inputs as sort of "dummy data." This allowed for plotting of the multidimensional data on 2D graphs, although it is worth noting that these plots are inherently naive, and do not give a full picture of the model nor its full scope.
